@@ -1,0 +1,98 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Set a background color for the body */
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.7); /* Transparent black background */
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.logo {
+    padding-left: 50px;
+}
+
+.logo-img {
+    width: 50px;
+    height: auto;
+}
+.content {
+    background-image: url('download.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; /* Adjust the height as needed */
+    margin-top: 55px; /* Adjust the margin to keep content below navbar */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.center_text {
+    text-align: center;
+    color: white;
+}
+
+.center_text h1 {
+    margin-bottom: 20px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    font-size: 50px;
+}
+
+#bt1, #bt2 {
+    border: 1px solid white;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+#bt1:hover, #bt2:hover {
+    background-color: white;
+    color: black;
+    transition: 0.6s ease;
+}
